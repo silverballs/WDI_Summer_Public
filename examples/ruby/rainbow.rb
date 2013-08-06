@@ -19,3 +19,13 @@ class Weather
 end
 
 binding.pry
+
+
+
+
+I know you may have said this... but would you suggest:
+
+
+if I am creating a new hash:
+
+

@@ -38,7 +38,7 @@ git push origin master
 # Then push everything up to YOUR github repository
 ```
 
-To make contributions:
+To make contributions: 
 ```
 git add .
 git commit -m "Description of change made"

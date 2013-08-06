@@ -1,3 +1,6 @@
+require 'pry'
+
+
 def add(a, b)
   return a + b
 end
@@ -19,6 +22,7 @@ def calculate(x, y)
   puts subtract(x,y)
   puts multiply(x, y)
   puts divide(x, y)
+
 end
 
 # The following line would run the calculate function
@@ -29,19 +33,24 @@ def prompt_numbers
   a = gets.chomp.to_f
   puts "Give me another number"
   b = gets.chomp.to_f
+   puts a,b
   return a, b
-end
-
+ 
+end 
 def prompt_function
   puts "Add, subtract, multiple, divide?"
+  puts gets.chompa
   return gets.chomp
+  puts gets.chomp
 end
 
 # This function runs two other functions that prompt the user for input
 def prompt
-  function = prompt_function
+  random_thing = prompt_function
   a, b = prompt_numbers
-  return a, b, function
+  puts a, b, random_thing 
+  return a, b, random_thing
+  
 end
 
 a, b, math_function = prompt
@@ -56,5 +65,3 @@ when "multiply"
 when "divide"
    puts divide(a, b)
 end
-
-
