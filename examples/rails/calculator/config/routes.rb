@@ -3,6 +3,7 @@ Calculator::Application.routes.draw do
   root :to => 'welcome#index'
   get '/about' => 'welcome#about'
   get '/calculator' => 'calculator#calc'
+  get '/test' => 'test#test'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

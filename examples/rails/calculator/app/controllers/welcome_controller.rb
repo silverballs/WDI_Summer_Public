@@ -5,4 +5,9 @@ class WelcomeController < ApplicationController
   def about
     @name = "Phil"
   end
-end
+
+def test
+	@test = "test"
+end 
+
+end 

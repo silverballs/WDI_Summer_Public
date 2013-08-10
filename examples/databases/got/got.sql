@@ -1,5 +1,5 @@
-DROP TABLE people;
-DROP TABLE houses;
+-- DROP TABLE people;
+-- DROP TABLE houses;
 
 CREATE TABLE houses
 (

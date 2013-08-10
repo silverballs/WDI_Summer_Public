@@ -12,3 +12,4 @@ CREATE TABLE contacts
   dtgd  BOOLEAN,
   phone VARCHAR(12)
 );
+

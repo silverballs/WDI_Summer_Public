@@ -1,0 +1,6 @@
+Fri, 09 Aug 2013 22:44:23 -0400
+doc/README_FOR_APP	Sat, 20 Jul 2013 08:43:23 -0400
+app/controllers/application_controller.rb	Sat, 20 Jul 2013 08:43:23 -0400
+app/controllers/calculator_controller.rb	Sat, 20 Jul 2013 08:43:23 -0400
+app/controllers/welcome_controller.rb	Sat, 20 Jul 2013 08:43:23 -0400
+app/helpers/application_helper.rb	Sat, 20 Jul 2013 08:43:23 -0400
